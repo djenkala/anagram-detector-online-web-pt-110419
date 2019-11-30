@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(array)
-    array.select
+    array.select {|i| i.}
   end
   
 end
